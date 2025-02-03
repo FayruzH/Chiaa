@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Day Card</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<link href='https://fonts.googleapis.com/css?family=Solitreo' rel='stylesheet'>
+  <div class="container">
+    <div class="envelope"></div>
+    <div class="card">
+        <h1 class="message">Happy Valentine’s Chiaa !<br>Your smile makes everything sweeter<br><br><br>Click my heart</h1>
+        <div class="heart" id="heartButton"></div>  <!-- Add an ID for JavaScript -->
+        <script>
+            document.getElementById("heartButton").addEventListener("click", function() {
+              window.location.href = "Q1.html"; // Change this to your actual next page
+            });
+        </script>
+    </div>
+    <div class="cover"></div>
+    <div class="lid"></div>
+    <div class="shadow"></div>
+  </div>
+</body>
+</html>
